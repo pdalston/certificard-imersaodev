@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
+body {
+  /*background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);*/
+  background: url(https://cdn.pixabay.com/photo/2021/04/08/05/15/big-bang-6160666_960_720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.container {
+  background: #ECF4FF;
+  color: background: #1C1C1C;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  line-height:10px;
+}
+
+.foto-perfil {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 20px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font: 24px;
+}
+
+.titulo a {
+  text-decoration: none;
+  color: #1C1C1C;
+}
+
+.tema button {
+  align-self: self-end;
+  font-size: 24px;
+  font-wight: 400;
+  padding: 8px 16px;
+  border-radius: 100px;
+  background: #ECF4FF;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;
+}
+
+/*.projetos ul {
+  font-weight: 700;
+  font: 48px;
+}*/
+
+.container-interno {
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  margin-top: 40px;
+  padding: 50px;
+}
+
+.logo {
+  max-height: 15px;
+}
+
+.titulo-projeto {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projeto-items {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.projeto-items a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .titulo a {
+  color: #F6F6F6;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #F6F6F6;
+  border: 1px solid #F6F6F6;
+}
